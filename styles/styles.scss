@@ -20,4 +20,14 @@
   'blocks/services',
   'blocks/service-card',
   'blocks/banner',
-  'blocks/studies';
+  'blocks/studies',
+  'blocks/process',
+  'blocks/team',
+  'blocks/team-card',
+  'blocks/pagination',
+  'blocks/reviews',
+  'blocks/review-card';
+
+.section:not(:last-child) {
+  display: none;
+}
